@@ -109,8 +109,8 @@
 			                        <suppressionFile>project-suppression.xml</suppressionFile> 
 			                    </suppressionFiles> 
 			                 -->
-			    </configuration>
-			   </plugin>
+			    <!-- </configuration>
+			   </plugin> -->
 		</plugins>
 	</build>
 
