@@ -87,15 +87,15 @@
 			    </configuration>
 			   </plugin>
 			<!--                   Dependency Check Plugin                   -->
-			   <!--
-			   <plugin>
+			   
+			   <!-- <plugin>
 			    <groupId>org.owasp</groupId>
 			    <artifactId>dependency-check-maven</artifactId>
 			    <version>6.1.6</version>
 			    <configuration>
 			     <format>ALL</format>
-			     <failBuildOnCVSS>10</failBuildOnCVSS> <!-- fail the build for CVSS greater than or equal to 10 -->
-				-->
+			     <failBuildOnCVSS>10</failBuildOnCVSS> fail the build for CVSS greater than or equal to 10 -->
+				
 			     <!-- 
 			      use internal mirroring of CVE contents 
 			      Suppress files 
