@@ -1,7 +1,7 @@
 #!/bin/bash
 #trivy-k8s-scan
 
-dockerImagename=$(awk 'NR==1 {print $2}' Dockerfile)
+dockerImageName=$(awk 'NR==1 {print $2}' Dockerfile)
 echo $dockerImageName #getting Image name from env variable
 
 docker run --rm -v $WORKSPACE:/root/.cache/ aquasec/trivy:0.48.0 -q image --exit-code 0 --severity HIGH --light $imageName
